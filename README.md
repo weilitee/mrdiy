@@ -1,41 +1,29 @@
-# SQL Data Transformation: Pivot Table of Monthly Sales Contributions
-
-## Description
-This project transforms raw sales data into a pivot table showing monthly contributions for sales quantity, sales amount, sales cost, and profit by product and category. The resulting table helps analyze each product's contribution to the monthly totals by category.
+# SQL Data Transformation: MRDIY Junior Data Engineer Assessment
 
 ---
 
 ## Setup Instructions
 
-1. **Download the raw dataset**
-   - Get the CSV file `raw_data.csv` from the `data/` folder.
-   
-2. **Import the CSV into your SQL environment**
-   - **BigQuery**
-     - Create a table named `raw_data` in your preferred dataset.
-     - Upload `raw_data.csv` into the table.
-   - **SQLite / PostgreSQL / MySQL**
-     - Create a table named `raw_data` with the following columns:
-       - `month`, `product`, `store_code`, `category`, `sales_qty`, `sales_amt`, `sales_cost`
-     - Import the CSV into the table.
+1. **Download the CSV file**
+   - Get `raw_data.csv` from the `data/` folder.
+
+2. **Upload CSV into BigQuery**
+   - Open your BigQuery console.
+   - Create a table to hold the CSV data:
+   - You can name it `raw_data` or choose any name.
+   - Note the **full table path**, e.g., `your-project.dataset.raw_data`.
 
 ---
 
 ## Running the SQL Query
 
-1. Open your  BigQuery console.
-2. Open the SQL script: `queries/final_pivot_table.sql`.
-3. Execute the query.
-   - This will create a table named `final_pivot_table`.
-   - The table will include:
-     - Sales quantity contribution by category and month
-     - Sales amount contribution by category and month
-     - Sales cost contribution by category and month
-     - Profit contribution by category and month
+1. Open the SQL script `SQL_query`
+2. Copy the query and paste it into the BigQuery console.  
+3. Update the `FROM` clause in the query to reference the table where you uploaded the CSV. 
+4. Execute the query to create the `final_pivot_table` with the expected output.
 
 
-## Optional: Export Final Table
 
-- After running the query, you can export `final_pivot_table` back to CSV for further analysis:
-  - **BigQuery:** Use the "Export" feature.
+
+
 
