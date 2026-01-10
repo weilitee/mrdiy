@@ -7,7 +7,7 @@
 ### Setup Instructions
 
 1. **Download the CSV file**
-   - Get `raw_data.csv` from the `data/` folder.
+   - Download `raw_data.csv` 
 
 2. **Upload CSV into BigQuery**
    - Open your BigQuery console.
