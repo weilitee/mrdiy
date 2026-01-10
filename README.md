@@ -17,7 +17,7 @@
 
 ### Running the SQL Query
 
-1. Open the SQL script `SQL_query`
+1. Open the SQL script `SQL.sql`
 2. Copy the query and paste it into the BigQuery console.  
 3. Update the `FROM` clause in the query to reference the table where you uploaded the CSV. 
 4. Execute the query to create the `final_pivot_table` with the expected output.
@@ -39,8 +39,8 @@
 #### Running the Python Script
 
 1.  Open VSCode or any Python IDE
-2.  Copy and paste python code into the console
-3.  Open the Python code and update the CSV file path so it points to your local copy. For example:
+3.  Copy and paste python code from `Python.py` into the console of your preferred IDE
+4.  Open the Python code and update the CSV file path so it points to your local copy. For example:
 ```bash
 df = pd.read_csv(r"C:\Users\YourName\Downloads\raw_data.csv")
 ```
