@@ -5,21 +5,6 @@ This project transforms raw sales data into a pivot table showing monthly contri
 
 ---
 
-## Repository Structure
-
-sql-data-transformation/
-│
-├── data/
-│ └── raw_data.csv # CSV of the raw dataset
-│
-├── queries/
-│ └── final_pivot_table.sql # SQL script to create the pivot table
-│
-└── README.md # This documentation
-
-
----
-
 ## Setup Instructions
 
 1. **Download the raw dataset**
