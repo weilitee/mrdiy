@@ -29,7 +29,7 @@
 ### Setup Instructions
 
 1. **Download the CSV file**  
-   - Get `raw_data.csv` from the `data/` folder.
+   - Download `raw_data.csv`
 
 2. **Install required Python packages**  
    - Ensure you have `pandas` installed:
