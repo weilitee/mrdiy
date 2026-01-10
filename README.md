@@ -40,7 +40,7 @@
 
 1.  Open VSCode or any Python IDE
 3.  Copy and paste python code from `Python.py` into the console of your preferred IDE
-4.  Open the Python code and update the CSV file path so it points to your local copy. For example:
+4.  Update the CSV file path so it points to your local file. For example:
 ```bash
 df = pd.read_csv(r"C:\Users\YourName\Downloads\raw_data.csv")
 ```
