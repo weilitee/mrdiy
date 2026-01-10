@@ -40,7 +40,11 @@
 
 1.  Open VSCode or any Python IDE
 2.  Copy and paste python code into the console
-3.  Run the code, a CSV file with the table will be created.
-4.  Open CSV file in excel to see final expected table.
+3.  Open the Python code and update the CSV file path so it points to your local copy. For example:
+```bash
+df = pd.read_csv(r"C:\Users\YourName\Downloads\raw_data.csv")
+```
+4.  Run the code, a CSV file with the table will be created.
+5.  Open CSV file in excel to see final expected table.
 
 
