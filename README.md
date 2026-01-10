@@ -23,7 +23,7 @@ This project transforms raw sales data into a pivot table showing monthly contri
 
 ## Running the SQL Query
 
-1. Open your SQL client or BigQuery console.
+1. Open your  BigQuery console.
 2. Open the SQL script: `queries/final_pivot_table.sql`.
 3. Execute the query.
    - This will create a table named `final_pivot_table`.
@@ -33,19 +33,9 @@ This project transforms raw sales data into a pivot table showing monthly contri
      - Sales cost contribution by category and month
      - Profit contribution by category and month
 
----
-
-## Query Notes
-
-- **Profit calculation:** `profit = sales_amt - sales_cost`.
-- **Contribution percentages:** Calculated as `(metric / total per month-category) * 100`, rounded to the nearest whole number and formatted as a percentage (e.g., `25%`).
-- **Pivoting:** The SQL pivots months from `Jan-25` to `Aug-25`. To add more months, update the `FOR month IN (...)` clause in the SQL.
-- The query uses **window functions** to compute totals per month-category, ensuring efficient and accurate contribution calculations.
-
----
 
 ## Optional: Export Final Table
 
 - After running the query, you can export `final_pivot_table` back to CSV for further analysis:
   - **BigQuery:** Use the "Export" feature.
-  - **Other SQL engines:** Use standard CSV export commands.
+
