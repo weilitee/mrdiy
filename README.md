@@ -1,4 +1,4 @@
-# MRDIY Junior Data Engineer Assessment
+# SQL and Python Assessment
 
 ---
 
