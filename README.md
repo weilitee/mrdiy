@@ -1,8 +1,10 @@
-# SQL Data Transformation: MRDIY Junior Data Engineer Assessment
+# MRDIY Junior Data Engineer Assessment
 
 ---
 
-## Setup Instructions
+## SQL 
+
+### Setup Instructions
 
 1. **Download the CSV file**
    - Get `raw_data.csv` from the `data/` folder.
@@ -13,17 +15,32 @@
    - You can name it `raw_data` or choose any name.
    - Note the **full table path**, e.g., `your-project.dataset.raw_data`.
 
----
-
-## Running the SQL Query
+### Running the SQL Query
 
 1. Open the SQL script `SQL_query`
 2. Copy the query and paste it into the BigQuery console.  
 3. Update the `FROM` clause in the query to reference the table where you uploaded the CSV. 
 4. Execute the query to create the `final_pivot_table` with the expected output.
 
+---
 
+## Python
 
+### Setup Instructions
 
+1. **Download the CSV file**  
+   - Get `raw_data.csv` from the `data/` folder.
+
+2. **Install required Python packages**  
+   - Ensure you have `pandas` installed:
+   ```bash
+   pip install pandas
+
+#### Running the Python Script
+
+1.  Open VSCode or any Python IDE
+2.  Copy and paste python code into the console
+3.  Run the code, a CSV file with the table will be created.
+4.  Open CSV file in excel to see final expected table.
 
 
