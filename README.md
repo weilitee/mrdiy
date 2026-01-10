@@ -36,7 +36,7 @@
    ```bash
    pip install pandas
 
-#### Running the Python Script
+### Running the Python Script
 
 1.  Open VSCode or any Python IDE
 3.  Copy and paste python code from `Python.py` into the console of your preferred IDE
