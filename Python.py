@@ -41,5 +41,6 @@ pivot_df = pivot_df.sort_values('product')
 # Display the result
 print(pivot_df)
 
-# Step 5: Optional Export to Excel
-pivot_df.to_excel("final_pivot_table.xlsx", index=False)
+# Export to CSV
+pivot_df.to_csv("final_pivot_table.csv", index=False)
+
