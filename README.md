@@ -20,7 +20,7 @@
 1. Open the SQL script `SQL.sql`
 2. Copy the query and paste it into the BigQuery console.
 3. Update the output table path in the `CREATE OR REPLACE TABLE` statement to create `final_pivot_table`. (Line 1)
-4. Update the file path in the query to reference the table where you uploaded the CSV. (Line 17)
+4. Update the source table path to your uploaded CSV table. (Line 17)
 5. Execute the query to create the `final_pivot_table` to retrieve expected output.
 
 ---
